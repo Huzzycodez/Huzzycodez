@@ -1,38 +1,69 @@
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+.pef{
+    background-color: hsl(30, 38%, 92%) ;
+    height: 100vh;
+    padding-top: 150px;
+    padding-bottom: 70px;
 }
-.QR {
-    background-color: hsl(212, 45%, 89%);
-    height: 500vh;
-}
-.code {
-    background-color:#ffffff;
-    margin-top: 8%;
+.Perfume {
+    background-color: hsl(0, 0%, 100%);
+    width: 45%;
+    display: flex;
+    margin-left: 80px;
+    margin-right: 80px;
     border-radius: 10px;
-    margin-left: 40%;
-    float: left;
-    padding-left: 10px;
+    margin-left: 25%;
+    
 }
-.code h3{
-    font-family: 'Outfit';
-    margin-left: 2rem;
-    width: 230px;
-   color:  hsl(218, 44%, 22%);
+.Perfume_1 {
+    float: right;
+    margin-left: 20px;
+    
 }
-.code p {
-    width: 260px;
+.Perfume img {
+    width: 300px;
+    height: 400px;
+    padding-left: 2px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.Perfume_1 h1 {
+    width: 150px;
+    font-family: 'Fraunces', serif;
+}
+
+.Perfume_1 p {
+    width: 270px;
+    font-size: 15px;
+font-family: 'Montserrat', sans-serif;
+}
+.Perfume_2 h1 {
+    color: hsl(158, 36%, 37%);
+    display: flex;
+    font-weight: 700;
+    vertical-align: middle;
+    font-family: 'Fraunces', serif;
+    font-size: xx-large;
+}
+.Perfume_2 span {
+    font-size: 15px;
+    text-decoration: line-through;
+    margin-left: 20px;
+    color:hsl(228, 12%, 48%);
     margin-top: 10px;
-    padding-bottom: 30px;
-    margin-left: 5px;
-    font-family: 'Outfit';
-    color:  hsl(220, 15%, 55%);
+   
 }
-.code img {
-    width: 17rem;
-    margin-top: 10px;
-    margin-right: 8px;
-    border-radius: 10px;
-    margin-bottom: 10px;
+.Perfume_1 button {
+    height: 10%;
+    width: 90%;
+    font-family: 'Fraunces', serif;
+font-family: 'Montserrat', sans-serif;
+    border-radius: 8px;
+    background-color: hsl(158, 36%, 37%);
+    color: hsl(0, 0%, 100%);
+    border: none;
+    transition: 2s;
+}
+.Perfume_1 button:hover {
+    cursor: pointer;
+    background-color:hsl(157, 78%, 11%);
 }
