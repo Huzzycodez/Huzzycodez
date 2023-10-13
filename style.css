@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.QR {
+    background-color: hsl(212, 45%, 89%);
+    height: 500vh;
+}
+.code {
+    background-color:#ffffff;
+    margin-top: 8%;
+    border-radius: 10px;
+    margin-left: 40%;
+    float: left;
+    padding-left: 10px;
+}
+.code h3{
+    font-family: 'Outfit';
+    margin-left: 2rem;
+    width: 230px;
+   color:  hsl(218, 44%, 22%);
+}
+.code p {
+    width: 260px;
+    margin-top: 10px;
+    padding-bottom: 30px;
+    margin-left: 5px;
+    font-family: 'Outfit';
+    color:  hsl(220, 15%, 55%);
+}
+.code img {
+    width: 17rem;
+    margin-top: 10px;
+    margin-right: 8px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
